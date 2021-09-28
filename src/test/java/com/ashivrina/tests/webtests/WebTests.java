@@ -1,7 +1,6 @@
 package com.ashivrina.tests.webtests;
 
 import com.ashivrina.config.WebTestsConfig;
-import com.ashivrina.tests.TestBase;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.Test;
 

@@ -1,13 +1,8 @@
 package com.ashivrina.config;
 import org.aeonbits.owner.Config;
-import org.aeonbits.owner.Config.LoadPolicy;
 
-import static org.aeonbits.owner.Config.LoadType.MERGE;
-
-@LoadPolicy(MERGE)
 @Config.Sources({
-        "system:properties",
-        "classpath:${launchType}.properties"
+        "classpath:${launchType}.properties",
 })
 public interface WebTestsConfig extends Config {
 

@@ -1,4 +1,4 @@
-package com.ashivrina.tests;
+package com.ashivrina.tests.webtests;
 
 import com.ashivrina.drivers.WebDriverProvider;
 import com.codeborne.selenide.Configuration;
